@@ -12,16 +12,10 @@
 */
 
 /* ROUTE TO ABOUT PAGE */
-Route::get('contact', function () {
-    return view('contact');
-});
+Route::get('contact', 'PagesController@getContact');
 
 /* ROUTE TO ABOUT PAGE */
-Route::get('about', function () {
-    return view('about');
-});
+Route::get('about', 'PagesController@getAbout');
 
 /* ROUTE TO INDEX PAGE */
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@getIndex');

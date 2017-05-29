@@ -79,7 +79,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <h1>About</h1>
+                    <h3>About {{ $data['fullname'] }}<h3>
+                    <h6>Email me at {{ $data['email'] }}</h6>
                 </div>
 
                 <div class="links">
