@@ -11,7 +11,7 @@
 |
 */
 
-/* ROUTE TO ABOUT PAGE */
+/* ROUTE TO CONTACT PAGE */
 Route::get('contact', 'PagesController@getContact');
 
 /* ROUTE TO ABOUT PAGE */

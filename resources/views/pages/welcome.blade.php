@@ -4,6 +4,7 @@
     <div class="content">
         <div class="title m-b-md">
             <h1>Welcome</h1>
+            <p class="change">Lets see if this works</p>
         </div> 
         <div class="links">
             <a href="/">Home</a>

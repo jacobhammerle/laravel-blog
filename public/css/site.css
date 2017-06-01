@@ -1,6 +1,7 @@
 nav {
 	background-color: #000000;
 }
-h1 {
-	color: white;
+.change {
+	font-size: 40px;
+	color: green;
 }
