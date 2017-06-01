@@ -119,10 +119,28 @@ nav {
 	background-color: #34BC86;
 }
 
+/* ---- WRAP AROUND CONTENT ---- */
 #main-wrapper {
 	background-color: #F6F6F6;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	padding-top: 15px;
 }
+
+/* ---- WELCOME PAGE ---- */
+.post-block {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.post-block:last-child {
+    border: 0;
+    margin-bottom: 0px;
+}
+
+
+
+
+
