@@ -36,12 +36,24 @@ nav {
 	margin: auto;
 	display: block;
 }
+.nav-wrapper .fa-bars {
+	font-size: 22px;
+}
+.nav-wrapper .fa-bars:hover {
+	color: #D6D6D6;
+}
 
 /* ---- SUB NAVBAR ---- */
 .sub-nav {
 	font-family: fontThin;
 	background-color: #2F333E;
 	color: #FFFFFF;
+	display: block;
+}
+@media only screen and (max-width: 600px) {
+    .sub-nav {
+        display: none;
+    }
 }
 .sub-nav-wrapper {
 	max-width: 1200px;
@@ -105,4 +117,12 @@ nav {
 }
 .sub-nav-right .search-right .fa-search:hover {
 	background-color: #34BC86;
+}
+
+#main-wrapper {
+	background-color: #F6F6F6;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }

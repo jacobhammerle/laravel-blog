@@ -22,7 +22,7 @@
         <nav>
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo">Jacob's Blog</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
@@ -55,7 +55,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div id="main-wrapper">
             
             @yield('content')
 
