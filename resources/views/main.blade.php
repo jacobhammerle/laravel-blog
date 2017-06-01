@@ -12,6 +12,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+        <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="/css/site.css">
         
     </head>
@@ -20,14 +21,33 @@
         <!-- NAVBAR -->
         <nav>
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Logo</a>
+                <a href="#" class="brand-logo">Jacob's Blog</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
+
+        <!-- SUBNAV -->
+        <div class="sub-nav">
+            <div class="sub-nav-wrapper">
+                <div class="row">
+                    <div class="col s6 sub-nav-left">
+                        breadcrumbs
+                    </div>
+                    <div class="col s6 sub-nav-right">
+                        <div class="search-left">
+                            <input type="text" placeholder="search">
+                        </div>
+                        <div class="search-right">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="container">
             

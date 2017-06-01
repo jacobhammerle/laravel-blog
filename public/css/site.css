@@ -1,7 +1,108 @@
-nav {
-	background-color: #000000;
+/* ---- BASE ---- */
+ body {
+ 	font-family: fontRegular;
+ }
+
+/* ---- FONTS ---- */
+@font-face {
+    font-family: fontThin;
+    src: url(../fonts/roboto/Roboto-Thin.woff);
 }
-.change {
-	font-size: 40px;
-	color: green;
+@font-face {
+    font-family: fontLight;
+    src: url(../fonts/roboto/Roboto-Light.woff);
+}
+@font-face {
+    font-family: fontRegular;
+    src: url(../fonts/roboto/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: fontMedium;
+    src: url(../fonts/roboto/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: fontBold;
+    src: url(../fonts/roboto/Roboto-Bold.woff);
+}
+
+/* ---- NAVBAR ---- */
+nav {
+	font-family: fontLight;
+	background-color: #02AB68;
+	box-shadow: none;
+}
+.nav-wrapper {
+	max-width: 1200px;
+	margin: auto;
+	display: block;
+}
+
+/* ---- SUB NAVBAR ---- */
+.sub-nav {
+	font-family: fontThin;
+	background-color: #2F333E;
+	color: #FFFFFF;
+}
+.sub-nav-wrapper {
+	max-width: 1200px;
+	margin: auto;
+	display: block;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	overflow: auto;
+}
+.sub-nav-wrapper .col {
+	padding: 0px;
+}
+@media only screen and (max-width: 1200px) {
+    .sub-nav-wrapper .col {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+.sub-nav .row {
+    margin-bottom: 0;
+}
+.sub-nav-left {
+	text-align: left;
+	height: 28px;
+	line-height: 28px;
+}
+.sub-nav-right {
+	text-align: right;
+}
+.sub-nav-right .search-left {
+	display: inline-block;
+}
+.sub-nav-right input {
+	margin: 0px;
+	height: 20px;
+	border: 2px solid #02AB68;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+/* label underline focus color */
+.sub-nav-right input[type=text]:focus {
+     border: 2px solid #02AB68;
+     transition: none;
+     box-shadow: none;
+}
+.sub-nav-right input:focus::-webkit-input-placeholder { color:transparent; }
+.sub-nav-right input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+.sub-nav-right input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+.sub-nav-right input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
+.sub-nav-right .search-right {
+	display: inline-block;
+}
+.fa-search {
+	background-color: #02AB68;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.sub-nav-right .search-right .fa-search:hover {
+	background-color: #34BC86;
 }
