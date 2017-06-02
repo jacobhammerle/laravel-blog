@@ -131,13 +131,19 @@ nav {
 
 /* ---- WELCOME PAGE ---- */
 .post-block {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #D6D6D6;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 .post-block:last-child {
     border: 0;
     margin-bottom: 0px;
+}
+.post-block h4 {
+	font-family: fontMedium;
+}
+.post-block .btn {
+	background-color: #02AB68;
 }
 
 

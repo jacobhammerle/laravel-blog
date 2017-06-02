@@ -7,42 +7,42 @@
                 <div class="post-content">
                     <h4>Post Title</h4>
                     <p>Lorem ipsum dolor sit amet, facilis volutpat ex est, te probatus adipisci eum. Epicuri antiopam mei an. Mea ei alii eruditi, consul qualisque vix an, pro at deleniti vituperatoribus. No nec lorem patrioque, mel ea agam mucius alienum.</p>
-                    <span>Read more</span>
+                    <a class="waves-effect waves-light btn">Read more</a>
                 </div>
             </div>
             <div class="post-block">
                 <div class="post-content">
                     <h4>Post Title</h4>
                     <p>Lorem ipsum dolor sit amet, facilis volutpat ex est, te probatus adipisci eum. Epicuri antiopam mei an. Mea ei alii eruditi, consul qualisque vix an, pro at deleniti vituperatoribus. No nec lorem patrioque, mel ea agam mucius alienum.</p>
-                    <span>Read more</span>
+                    <a class="waves-effect waves-light btn">Read more</a>
                 </div>
             </div>
             <div class="post-block">
                 <div class="post-content">
                     <h4>Post Title</h4>
                     <p>Lorem ipsum dolor sit amet, facilis volutpat ex est, te probatus adipisci eum. Epicuri antiopam mei an. Mea ei alii eruditi, consul qualisque vix an, pro at deleniti vituperatoribus. No nec lorem patrioque, mel ea agam mucius alienum.</p>
-                    <span>Read more</span>
+                    <a class="waves-effect waves-light btn">Read more</a>
                 </div>
             </div>
             <div class="post-block">
                 <div class="post-content">
                     <h4>Post Title</h4>
                     <p>Lorem ipsum dolor sit amet, facilis volutpat ex est, te probatus adipisci eum. Epicuri antiopam mei an. Mea ei alii eruditi, consul qualisque vix an, pro at deleniti vituperatoribus. No nec lorem patrioque, mel ea agam mucius alienum.</p>
-                    <span>Read more</span>
+                    <a class="waves-effect waves-light btn">Read more</a>
                 </div>
             </div>
             <div class="post-block">
                 <div class="post-content">
                     <h4>Post Title</h4>
                     <p>Lorem ipsum dolor sit amet, facilis volutpat ex est, te probatus adipisci eum. Epicuri antiopam mei an. Mea ei alii eruditi, consul qualisque vix an, pro at deleniti vituperatoribus. No nec lorem patrioque, mel ea agam mucius alienum.</p>
-                    <span>Read more</span>
+                    <a class="waves-effect waves-light btn">Read more</a>
                 </div>
             </div>
             <div class="post-block">
                 <div class="post-content">
                     <h4>Post Title</h4>
                     <p>Lorem ipsum dolor sit amet, facilis volutpat ex est, te probatus adipisci eum. Epicuri antiopam mei an. Mea ei alii eruditi, consul qualisque vix an, pro at deleniti vituperatoribus. No nec lorem patrioque, mel ea agam mucius alienum.</p>
-                    <span>Read more</span>
+                    <a class="waves-effect waves-light btn">Read more</a>
                 </div>
             </div>
         </div>
