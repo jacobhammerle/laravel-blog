@@ -3,11 +3,6 @@ html {
   height: 100%;
   box-sizing: border-box;
 }
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
  body {
  	font-family: fontRegular;
  	position: relative;
@@ -83,25 +78,21 @@ nav {
 	padding-bottom: 9px;
 	overflow: auto;
 }
-.sub-nav-wrapper .col {
-	padding: 0px;
-}
-@media only screen and (max-width: 1200px) {
-    .sub-nav-wrapper .col {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
+.sub-nav-wrapper {
+	overflow: hidden;
 }
 .sub-nav .row {
     margin-bottom: 0;
 }
 .sub-nav-left {
 	text-align: left;
+	float: left;
 	height: 28px;
 	line-height: 28px;
 }
 .sub-nav-right {
 	text-align: right;
+	float: right;
 }
 .sub-nav-right .search-left {
 	display: inline-block;
@@ -141,10 +132,6 @@ nav {
 }
 
 /* ---- WRAP AROUND CONTENT ---- */
-#site-container {
-	min-height: 100%;
-	position: relative;
-}
 #main-wrapper {
 	background-color: #FFFFFF;
 	max-width: 1200px;
