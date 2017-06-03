@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="col l4 m12 s12">
-            sidebar
+            <!-- sidebar content -->
         </div>
     </div>
 @endsection
