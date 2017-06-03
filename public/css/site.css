@@ -1,6 +1,18 @@
 /* ---- BASE ---- */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
  body {
  	font-family: fontRegular;
+ 	position: relative;
+  	margin: 0;
+  	min-height: 100%;
  }
 
 /* ---- FONTS ---- */
@@ -120,13 +132,18 @@ nav {
 }
 
 /* ---- WRAP AROUND CONTENT ---- */
+#site-container {
+	min-height: 100%;
+	position: relative;
+}
 #main-wrapper {
-	background-color: #F6F6F6;
+	background-color: #FFFFFF;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	padding-top: 15px;
+	padding-bottom:60px;
 }
 
 /* ---- WELCOME PAGE ---- */
@@ -146,6 +163,54 @@ nav {
 	background-color: #02AB68;
 }
 
+/* ---- FOOTER ---- */
+.footer {
+	font-family: fontRegular;
+	background-color: #F6F6F6;
+	color: #2F333E;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+    height: 60px;   /* Height of the footer */
+	padding: 20px;
+}
+.footer-wrapper {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.footer-left {
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+.footer-right {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+}
+.footer-right ul {
+	font-family: fontMedium;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.footer-right li {
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.footer-right li:last-child {
+    margin-right: 0px;
+}
+.footer-right a {
+    color: #2F333E;
+}
+.footer-right a:hover {
+    color: #02AB68;
+    transition: all 0.2s;
+}
 
 
 
