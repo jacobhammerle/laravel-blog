@@ -54,6 +54,14 @@ nav {
 .nav-wrapper .fa-bars:hover {
 	color: #D6D6D6;
 }
+.dropdown-button {
+	border-left: 1px solid #34BC86;
+	border-right: 1px solid #34BC86;
+}
+.nav-wrapper .fa-sort-desc {
+	margin-left: 8px;
+	transform: translateY(-2px);
+}
 
 /* ---- SUB NAVBAR ---- */
 .sub-nav {
@@ -101,6 +109,7 @@ nav {
 .sub-nav-right input {
 	margin: 0px;
 	height: 20px;
+	width: 200px;
 	border: 2px solid #02AB68;
 	padding-top: 2px;
 	padding-bottom: 2px;

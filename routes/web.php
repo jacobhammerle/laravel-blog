@@ -11,6 +11,9 @@
 |
 */
 
+/* ROUTE TO ACCOUNT PAGE */
+Route::get('account', 'PagesController@getAccount');
+
 /* ROUTE TO CONTACT PAGE */
 Route::get('contact', 'PagesController@getContact');
 

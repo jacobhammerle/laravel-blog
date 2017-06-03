@@ -29,11 +29,21 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/contact">Contact</a></li>
+                    <li><a class="dropdown-button" href="/account" data-activates="account-dropdown">My Account<i class="fa fa-sort-desc" aria-hidden="true"></i></a></li>
                 </ul>
+                <!-- account dropdown -->
+                <ul id="account-dropdown" class="dropdown-content">
+                    <li><a href="#!">one</a></li>
+                    <li><a href="#!">two</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">settings</a></li>
+                </ul>
+                <!-- mobile nav -->
                 <ul class="side-nav" id="mobile-demo">
                     <<li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/contact">Contact</a></li>
+                    <li><a href="/account">My Account</a></li>
                 </ul>
             </div>
         </nav>
@@ -43,7 +53,7 @@
             <div class="sub-nav-wrapper">
                 <div class="row">
                     <div class="col s6 sub-nav-left">
-                        breadcrumbs
+                        First
                     </div>
                     <div class="col s6 sub-nav-right">
                         <div class="search-left">
