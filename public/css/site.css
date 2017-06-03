@@ -129,6 +129,7 @@ nav {
 }
 .sub-nav-right .search-right .fa-search:hover {
 	background-color: #34BC86;
+	cursor: pointer;
 }
 
 /* ---- WRAP AROUND CONTENT ---- */
@@ -157,6 +158,14 @@ nav {
 }
 .post-block .btn {
 	background-color: #02AB68;
+}
+
+/* ---- CONTACT PAGE ---- */
+.btn {
+	background-color: #02AB68;
+}
+.btn:hover {
+	background-color: #34BC86;
 }
 
 /* ---- FOOTER ---- */
