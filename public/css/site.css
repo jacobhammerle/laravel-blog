@@ -172,7 +172,6 @@ nav {
   	right: 0;
   	bottom: 0;
   	left: 0;
-    height: 60px;   /* Height of the footer */
 	padding: 20px;
 }
 .footer-wrapper {
@@ -186,10 +185,23 @@ nav {
 	vertical-align: middle;
 	float: left;
 }
+@media only screen and (max-width: 490px) {
+    .footer-left {
+        display: block;
+        float: none;
+    }
+}
 .footer-right {
 	display: inline-block;
 	vertical-align: middle;
 	float: right;
+}
+@media only screen and (max-width: 490px) {
+    .footer-right {
+        display: block;
+        float: none;
+        margin-top: 15px;
+    }
 }
 .footer-right ul {
 	font-family: fontMedium;
@@ -200,6 +212,15 @@ nav {
     display: inline;
     margin-right: 15px;
     margin-left: 15px;
+}
+@media only screen and (max-width: 490px) {
+    .footer-right li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .footer-right li:first-child {
+    	margin-left: 0px;
+	}
 }
 .footer-right li:last-child {
     margin-right: 0px;

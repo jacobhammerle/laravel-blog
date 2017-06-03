@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row">
-        <div class="col m8 s12">
+        <div class="col l8 m12 s12">
             <div class="post-block">
                 <div class="post-content">
                     <h4>Post Title</h4>
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="col m4 s12">
+        <div class="col l4 m12 s12">
             sidebar
         </div>
     </div>
