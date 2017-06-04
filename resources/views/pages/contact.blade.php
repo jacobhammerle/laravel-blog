@@ -1,5 +1,7 @@
 @extends('main')
 
+@section('title', 'Contact')
+
 @section('content')
     <h3>Contact Me.</h3>
     <div class="row">
