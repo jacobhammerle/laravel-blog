@@ -22,3 +22,5 @@ Route::get('about', 'PagesController@getAbout');
 
 /* ROUTE TO INDEX PAGE */
 Route::get('/', 'PagesController@getIndex');
+
+Route::resource('posts', 'PostController');

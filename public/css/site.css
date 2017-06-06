@@ -160,6 +160,19 @@ nav {
 	background-color: #02AB68;
 }
 
+/* ---- NEW POST MODAL ---- */
+.new-post-title {
+}
+#new-post-modal .modal-content .new-post-body {
+	height: 150px;
+	max-height: 300px;
+	max-width: 750px;
+	border: 1px solid #2F333E;
+	border-radius: 4px;
+	padding: 10px;
+	outline: none;
+}
+
 /* ---- CONTACT PAGE ---- */
 .btn {
 	background-color: #02AB68;

@@ -11,8 +11,7 @@
         </ul>
         <!-- account dropdown -->
         <ul id="account-dropdown" class="dropdown-content">
-            <li><a href="#!">one</a></li>
-            <li><a href="#!">two</a></li>
+            <li><a href="#new-post-modal">New Post</a></li>
             <li class="divider"></li>
             <li><a href="#!">settings</a></li>
         </ul>
