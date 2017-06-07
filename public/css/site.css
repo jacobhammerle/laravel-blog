@@ -172,6 +172,20 @@ nav {
 	padding: 10px;
 	outline: none;
 }
+.modal-content {
+	overflow: hidden;
+}
+.create-post-btn {
+	margin-top: 15px;
+	border: 1px solid #02AB68;
+	border-radius: 4px;
+	float: right;
+}
+.modal-content input[type=text]:focus {
+     border-bottom: 1px solid #02AB68;
+     transition: none;
+     box-shadow: none;
+}
 
 /* ---- CONTACT PAGE ---- */
 .btn {
