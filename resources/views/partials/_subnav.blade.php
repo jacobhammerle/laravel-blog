@@ -14,3 +14,6 @@
         </div>
     </div>
 </div>
+
+<!-- NEW POST MODAL -->
+@include('posts.create')
